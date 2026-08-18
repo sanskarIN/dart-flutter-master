@@ -18,3 +18,11 @@ Open an issue or email **sanskarin@outlook.in** with:
 No confirmed public errata are listed for the first repository release yet.
 
 Corrections should be added here before a revised publication file is released so readers can see what changed.
+
+## Official reader edition
+
+For currently offered commercial editions and bundles, use the official Ram Sandesh Gumroad storefront:
+
+### 🛒 **https://ramsandesh.gumroad.com**
+
+Repository corrections remain public here; updated paid editions may be distributed through the official storefront according to the product's update policy.
