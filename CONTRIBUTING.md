@@ -32,3 +32,11 @@ git config user.email "sanskarin@outlook.in"
 ## Licensing
 
 By contributing companion source code, you agree that your contribution may be distributed under the repository's MIT License.
+
+## Book and store
+
+The commercial **Dart & Flutter Full Mastery** editions and official digital bundles are available on Gumroad:
+
+**🛒 https://ramsandesh.gumroad.com**
+
+Please do not copy paid book files into pull requests. Keep contributions focused on the eligible companion repository content.
