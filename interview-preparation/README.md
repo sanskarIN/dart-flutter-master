@@ -15,6 +15,8 @@ Keep answer keys focused on reasoning, trade-offs, correctness, testing, accessi
 
 ## Complete interview and mastery material
 
+[![Gumroad](../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
+
 For the commercial complete edition and available bundles containing the full Parts 119–120 learning material:
 
 ### 🛒 **https://ramsandesh.gumroad.com**
