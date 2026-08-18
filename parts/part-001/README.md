@@ -1,15 +1,16 @@
-# Part 001 — Dart Foundations: First Program and Core Syntax
+# Part 001 — Foundations, Installation, IDE Setup and Your First Applications
 
 [![Get the complete edition on Gumroad](../../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
 
-This companion package provides a small, runnable introduction to Dart syntax and package structure without reproducing the paid book chapter.
+This companion package matches Part 001 of the master manuscript and provides a small runnable Dart application that establishes the repository/package workflow used throughout the series.
 
 ## Learning goals
 
 - Run a Dart console program.
-- Import code from `lib/` into `bin/`.
-- Work with strings, numbers, functions, and simple validation.
+- Import reusable code from `lib/` into `bin/`.
+- Work with strings, numbers, functions, and validation.
 - Run automated tests with `dart test`.
+- Understand the package structure used by later companion parts.
 
 ## Run
 
@@ -27,7 +28,7 @@ dart test
 
 ## Complete book
 
-The full explanations, exercises, diagrams, and guided progression are available through the official storefront:
+The full installation guidance, IDE setup, explanations, exercises, diagrams, and guided progression are available through the official storefront:
 
 **https://ramsandesh.gumroad.com**
 
