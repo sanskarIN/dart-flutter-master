@@ -33,7 +33,12 @@ When a part requires external services, use safe `.env.example`/configuration pl
 | [013](part-013/) | Flutter Styling, Themes and Professional Design Systems | ✅ Flutter package + theme/widget tests |
 | [014](part-014/) | Flutter Input, Forms, Validation and Submission Workflows | ✅ Flutter package + form/workflow tests |
 | [015](part-015/) | Flutter Navigation, Routing, Deep Links and Multi-Screen Architecture | ✅ Flutter package + route/widget tests |
-| 016–120 | Remaining Flutter and advanced companion implementations | 🚧 Planned / incremental |
+| [016](part-016/) | Flutter State Management Architecture | ✅ Flutter package + controller/widget tests |
+| [017](part-017/) | Flutter Networking, REST APIs and Resilient Data Architecture | ✅ Flutter package + REST/repository/widget tests |
+| [018](part-018/) | Local Persistence, Databases and Offline-First Data | ✅ Flutter package + offline-first tests |
+| [019](part-019/) | Platform Integration, Plugins and Native Capabilities | ✅ Flutter package + platform-boundary tests |
+| [020](part-020/) | Animations, Motion Systems and Custom Painting | ✅ Flutter package + animation/painter tests |
+| 021–120 | Remaining advanced companion implementations | 🚧 Planned / incremental |
 
 The table reflects what is actually present in GitHub; it does not claim unfinished companion packages are already published.
 
@@ -48,9 +53,11 @@ PACKAGE_KIND=flutter REQUIRE_MATCH=1 bash scripts/validate-companion-packages.sh
 
 GitHub Actions runs the Dart and Flutter toolchains separately so one ecosystem cannot hide failures in the other.
 
-## Next implementation phase
+## Current milestone
 
-Parts 016–020 continue with state management, networking, persistence, platform integration, and animation.
+**Parts 001–020 are now implemented as public companion packages.** This completes the first repository milestone from Dart foundations through Flutter architecture, UI, forms, navigation, state, networking, offline data, platform boundaries, and motion.
+
+The next implementation phase begins at Part 021 and will continue in exact master-manuscript order.
 
 ## Read the complete series
 
