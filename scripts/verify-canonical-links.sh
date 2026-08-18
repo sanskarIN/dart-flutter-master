@@ -13,6 +13,7 @@ reader_files=(
   ERRATA.md
   docs/README.md
   docs/BOOK_METADATA.md
+  docs/FLUTTER_COMPANION_GUIDE.md
   docs/PUBLISHING.md
   docs/GUMROAD_PRODUCT_GUIDE.md
   docs/GUMROAD_RELEASE_CHECKLIST.md
@@ -47,6 +48,7 @@ repo_files=(
   SUPPORT.md
   docs/README.md
   docs/BOOK_METADATA.md
+  docs/FLUTTER_COMPANION_GUIDE.md
   docs/PUBLISHING.md
   docs/GUMROAD_PRODUCT_GUIDE.md
   docs/GUMROAD_RELEASE_CHECKLIST.md
@@ -61,6 +63,19 @@ for file in "${repo_files[@]}"; do
   fi
 done
 
+shopt -s nullglob
+part_readmes=(parts/part-*/README.md)
+for file in "${part_readmes[@]}"; do
+  if ! grep -Fq "$GUMROAD" "$file"; then
+    echo "Missing Gumroad link in implemented part: $file" >&2
+    exit 1
+  fi
+  if ! grep -Fq "$REPOSITORY" "$file"; then
+    echo "Missing canonical repository URL in implemented part: $file" >&2
+    exit 1
+  fi
+done
+
 if grep -RniE --include='*.md' --include='*.yml' --include='*.yaml' '(https?://)?(www\.)?(x\.com|twitter\.com)/' . \
   --exclude-dir='.git'; then
   echo 'A changeable X/Twitter profile URL was found. Remove it from canonical repository metadata.' >&2
@@ -68,5 +83,6 @@ if grep -RniE --include='*.md' --include='*.yml' --include='*.yaml' '(https?://)
 fi
 
 echo 'Canonical link verification passed.'
+echo "Checked ${#part_readmes[@]} implemented part README file(s)."
 echo "Gumroad: $GUMROAD"
 echo "Repository: $REPOSITORY"
