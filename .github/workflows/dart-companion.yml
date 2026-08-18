@@ -1,0 +1,48 @@
+name: Dart Companion CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'parts/**'
+      - 'examples/**'
+      - 'exercises/**'
+      - 'solutions/**'
+      - 'master-projects/**'
+      - 'interview-preparation/**'
+      - 'scripts/validate-companion-packages.sh'
+      - 'scripts/list-companion-packages.sh'
+      - '.github/workflows/dart-companion.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'parts/**'
+      - 'examples/**'
+      - 'exercises/**'
+      - 'solutions/**'
+      - 'master-projects/**'
+      - 'interview-preparation/**'
+      - 'scripts/validate-companion-packages.sh'
+      - 'scripts/list-companion-packages.sh'
+      - '.github/workflows/dart-companion.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-dart-companions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Dart
+        uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - name: Show Dart version
+        run: dart --version
+
+      - name: Validate companion packages
+        run: bash scripts/validate-companion-packages.sh
