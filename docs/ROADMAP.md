@@ -1,20 +1,28 @@
 # Companion Repository Roadmap
 
-## Phase 1 — Repository foundation
+## Phase 1 — Repository foundation ✅
 
 - Governance and licensing
 - Documentation structure
 - Errata and changelog workflow
 - Release/validation checklists
 - Official Gumroad storefront integration
+- Canonical-link CI and repository policies
 
-## Phase 2 — Parts 001–020
+## Phase 2 — Parts 001–020 ✅
 
-Publish Dart-foundation examples, exercises, and verification commands.
+Implemented manuscript-aligned companion packages for:
 
-## Phase 3 — Parts 021–060
+- Dart foundations, syntax, operators, control flow, functions, collections, OOP, resilience, async, and package architecture.
+- Flutter widget architecture, responsive/sliver layouts, design systems, forms, navigation, state management, REST/data architecture, offline-first persistence, platform capability boundaries, animations, and custom painting.
+- Unit/widget tests appropriate to each implemented part.
+- Separate Dart and Flutter GitHub Actions validation paths.
 
-Add Flutter UI, testing, architecture, data, performance, and production examples.
+See `parts/README.md` for the exact implementation matrix.
+
+## Phase 3 — Parts 021–060 🚧 next
+
+Continue in exact master-manuscript order with advanced Flutter UI, testing, architecture, data, performance, and production companion implementations.
 
 ## Phase 4 — Parts 061–100
 
@@ -38,5 +46,7 @@ Run current stable Dart/Flutter analysis and tests, verify supported platforms, 
 ### 🛒 Official Gumroad
 
 **https://ramsandesh.gumroad.com**
+
+Official repository: **https://github.com/sanskarIN/dart-flutter-master**
 
 The commercial book files are distributed through publication channels rather than committed to this public code repository.
