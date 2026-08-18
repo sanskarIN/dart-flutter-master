@@ -36,3 +36,8 @@ flutter test
 ```
 
 Build only the targets supported by the current host and project. Record any platform-specific prerequisites in the relevant part/project README rather than hiding failures or disabling analysis rules without explanation.
+
+## Reader resources
+
+- Official companion repository: **https://github.com/sanskarIN/dart-flutter-master**
+- Complete editions and bundles on Gumroad: **https://ramsandesh.gumroad.com**
