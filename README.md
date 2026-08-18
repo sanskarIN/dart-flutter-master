@@ -11,18 +11,27 @@ Official companion repository for **Dart & Flutter Full Mastery — Complete 120
 
 [![Gumroad](https://img.shields.io/badge/Gumroad-Get%20the%20Complete%20Edition-ff90e8?style=for-the-badge&logo=gumroad&logoColor=000000)](https://ramsandesh.gumroad.com)
 [![120 Parts](https://img.shields.io/badge/Series-120%20Parts-02569B?style=for-the-badge)](#series)
+[![Companion Progress](https://img.shields.io/badge/Companion%20Code-20%2F120%20Parts-2ea44f?style=for-the-badge)](parts/README.md)
 [![Code License](https://img.shields.io/badge/Companion%20Code-MIT-2ea44f?style=for-the-badge)](LICENSE)
 
 This repository is for public companion source code, exercises, solutions, master-project scaffolds, interview preparation, errata, and release notes. The commercial book manuscript, covers, and publication artwork are not licensed under the repository's MIT code license.
+
+## Current companion-code milestone
+
+**Parts 001–020 are implemented and linked from the [Parts status page](parts/README.md).** The current public milestone spans Dart foundations through Flutter widgets, responsive layouts, themes, forms, navigation, state management, REST architecture, offline-first data, platform capability boundaries, and motion/custom painting.
+
+Implemented packages include unit or widget tests appropriate to their topic. Pure-Dart and Flutter packages are validated by separate GitHub Actions workflows.
 
 ## Quick links
 
 - 🛒 **Gumroad:** https://ramsandesh.gumroad.com
 - 💗 **Store details:** [GUMROAD.md](GUMROAD.md)
 - 🆘 **Support & reader links:** [SUPPORT.md](SUPPORT.md)
+- ✅ **Companion implementation status:** [parts/README.md](parts/README.md)
 - 💻 **Repository:** https://github.com/sanskarIN/dart-flutter-master
 - 📧 **Reader/project contact:** sanskarin@outlook.in
 - 🗺️ **Roadmap:** [docs/ROADMAP.md](docs/ROADMAP.md)
+- 📐 **Flutter companion standard:** [docs/FLUTTER_COMPANION_GUIDE.md](docs/FLUTTER_COMPANION_GUIDE.md)
 - 📖 **Publishing notes:** [docs/PUBLISHING.md](docs/PUBLISHING.md)
 - 🧪 **Local validation:** [docs/LOCAL_VALIDATION.md](docs/LOCAL_VALIDATION.md)
 - 📝 **Errata:** [ERRATA.md](ERRATA.md)
