@@ -1,15 +1,7 @@
-import 'package:dfm_part_004/functions.dart';
+import 'package:dfm_part_004/control_flow.dart';
 
 void main() {
-  final product = applyOperation(6, 7, (left, right) => left * right);
-  print('6 × 7 = $product');
-
-  final counter = makeCounter(start: 10, step: 2);
-  print('Counter: ${counter()}, ${counter()}, ${counter()}');
-
-  final normalize = compose<String>(
-    (value) => value.trim(),
-    (value) => value.toUpperCase(),
-  );
-  print(normalize('  dart functions  '));
+  print('Score 88: ${classifyScore(88)}');
+  print('Even-number total: ${sumEvenNumbers([1, 2, 3, 4, 5, 6])}');
+  print(fizzBuzz(15).join(', '));
 }
