@@ -29,6 +29,10 @@ on:
 permissions:
   contents: read
 
+env:
+  PACKAGE_KIND: dart
+  REQUIRE_MATCH: '1'
+
 jobs:
   validate-dart-companions:
     runs-on: ubuntu-latest
@@ -44,5 +48,5 @@ jobs:
       - name: Show Dart version
         run: dart --version
 
-      - name: Validate companion packages
+      - name: Validate pure-Dart companion packages
         run: bash scripts/validate-companion-packages.sh
