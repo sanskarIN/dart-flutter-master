@@ -2,7 +2,7 @@
 
 Official companion repository for **Dart & Flutter Full Mastery — Complete 120-Part Master Edition** by **Ram Sandesh**.
 
-[![Get Dart & Flutter Full Mastery on Gumroad](assets/gumroad-github-banner.webp)](https://ramsandesh.gumroad.com)
+[![Get Dart & Flutter Full Mastery on Gumroad](assets/gumroad-hero.svg)](https://ramsandesh.gumroad.com)
 
 > ## 📚 Get the Complete Edition on Gumroad
 > **eBooks • Complete bundles • publication updates • more by Ram Sandesh**
