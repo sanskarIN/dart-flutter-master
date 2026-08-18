@@ -14,6 +14,8 @@ Every release should reference `CHANGELOG.md`, review `ERRATA.md`, and state whi
 
 ## Commercial distribution
 
+[![Gumroad](../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
+
 Reader-facing publication files and paid bundles should be distributed through the official Ram Sandesh storefront rather than committed here:
 
 ### 🛒 **https://ramsandesh.gumroad.com**
