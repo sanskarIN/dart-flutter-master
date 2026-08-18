@@ -12,3 +12,11 @@ Recommended structure per exercise:
 - validation/test command
 
 Keep solution-specific implementation out of starter files. Reference the matching part number so readers can navigate between the book and repository.
+
+## Get the complete book
+
+For the complete learning path, commercial editions, and available bundles:
+
+### 🛒 **https://ramsandesh.gumroad.com**
+
+Use GitHub for the open exercise assets and Gumroad for the reader editions and bundles.
