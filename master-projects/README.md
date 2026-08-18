@@ -18,6 +18,8 @@ Keep demo service adapters deterministic and credential-free unless a separate s
 
 ## Complete master-project learning path
 
+[![Gumroad](../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
+
 The commercial **Dart & Flutter Full Mastery** editions and bundles that accompany these projects are available from the official Gumroad storefront:
 
 ### 🛒 **https://ramsandesh.gumroad.com**
