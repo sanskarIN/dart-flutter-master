@@ -11,3 +11,11 @@ Recommended release naming:
 - `v1.1.0` — backward-compatible new examples/features
 
 Every release should reference `CHANGELOG.md`, review `ERRATA.md`, and state which Dart/Flutter versions and targets were validated.
+
+## Commercial distribution
+
+Reader-facing publication files and paid bundles should be distributed through the official Ram Sandesh storefront rather than committed here:
+
+### 🛒 **https://ramsandesh.gumroad.com**
+
+GitHub Releases should remain focused on eligible public companion-code artifacts, checksums, and technical release notes.
