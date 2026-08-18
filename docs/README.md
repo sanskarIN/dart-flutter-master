@@ -12,6 +12,7 @@
 
 - [Book metadata](BOOK_METADATA.md)
 - [Repository roadmap](ROADMAP.md)
+- [Flutter companion package standard](FLUTTER_COMPANION_GUIDE.md)
 - [Publishing guide](PUBLISHING.md)
 - [Gumroad product guide](GUMROAD_PRODUCT_GUIDE.md)
 - [Gumroad release checklist](GUMROAD_RELEASE_CHECKLIST.md)
