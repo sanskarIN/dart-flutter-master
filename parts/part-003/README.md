@@ -1,8 +1,8 @@
-# Part 003 — Control Flow and Iteration
+# Part 003 — Dart Operators, Expressions and Evaluation
 
 [![Get the complete edition on Gumroad](../../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
 
-This package practices branching, loops, filtering, and deterministic output.
+This companion package matches Part 003 of the master manuscript and practices arithmetic precedence, comparison/logical evaluation, bitwise operators, and safe remainder handling.
 
 ## Run
 
@@ -14,11 +14,11 @@ dart test
 
 ## Focus
 
-- `if`/`else` decisions
-- loops and collection traversal
-- range validation
-- FizzBuzz-style rule ordering
-- small pure functions that are easy to test
+- Arithmetic precedence
+- Relational and logical expressions
+- Inclusive range checks
+- Bitwise OR/AND flags
+- Explicit handling of invalid arithmetic cases
 
 Complete edition: **https://ramsandesh.gumroad.com**
 
