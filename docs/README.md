@@ -1,0 +1,27 @@
+# Dart & Flutter Full Mastery — Documentation Hub
+
+[![Gumroad](../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
+
+## Quick links
+
+- 🛒 **Official Gumroad:** https://ramsandesh.gumroad.com
+- 💻 **Official repository:** https://github.com/sanskarIN/dart-flutter-master
+- 📧 **Reader/project contact:** sanskarin@outlook.in
+
+## Documentation
+
+- [Book metadata](BOOK_METADATA.md)
+- [Repository roadmap](ROADMAP.md)
+- [Publishing guide](PUBLISHING.md)
+- [Release checklist](RELEASE_CHECKLIST.md)
+- [Repository policy](REPOSITORY_POLICY.md)
+- [Local Dart/Flutter validation](LOCAL_VALIDATION.md)
+- [Commit identity](COMMIT_IDENTITY.md)
+
+## Reader support
+
+For the complete commercial editions and available bundles, use the official Gumroad storefront:
+
+### **https://ramsandesh.gumroad.com**
+
+For public code, examples, errata, and contribution history, remain in the GitHub repository.
