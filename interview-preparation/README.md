@@ -12,3 +12,11 @@ Recommended contents:
 - sample project discussion prompts
 
 Keep answer keys focused on reasoning, trade-offs, correctness, testing, accessibility, performance, security, and maintainability rather than memorized one-line responses.
+
+## Complete interview and mastery material
+
+For the commercial complete edition and available bundles containing the full Parts 119–120 learning material:
+
+### 🛒 **https://ramsandesh.gumroad.com**
+
+The public GitHub repository remains the home for open interview-practice companion assets.
