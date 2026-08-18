@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "📚 Get Dart & Flutter Full Mastery on Gumroad"
+    url: https://ramsandesh.gumroad.com
+    about: "Commercial editions, bundles, downloads, and other Ram Sandesh digital products."
+  - name: "🔐 Security policy"
+    url: https://github.com/sanskarIN/dart-flutter-master/security/policy
+    about: "Please follow the security policy for sensitive vulnerability reports."
