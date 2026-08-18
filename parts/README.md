@@ -28,7 +28,9 @@ When a part requires external services, use safe `.env.example`/configuration pl
 | [008](part-008/) | Exceptions, Failures, Logging and Resilient Applications | ✅ Runnable package + tests |
 | [009](part-009/) | Asynchronous Dart: Futures, Streams, Isolates and Responsive Flutter | ✅ Runnable package + tests |
 | [010](part-010/) | Dart Libraries, Packages, Pub and Reusable Architecture | ✅ Reusable package + tests |
-| 011–120 | Remaining Flutter and advanced companion implementations | 🚧 Planned / incremental |
+| [011](part-011/) | Flutter Framework Architecture, Widgets and the UI Pipeline | ✅ Flutter package + widget tests |
+| [012](part-012/) | Flutter Layout Mastery, Responsive Design and Slivers | ✅ Flutter package + widget tests |
+| 013–120 | Remaining Flutter and advanced companion implementations | 🚧 Planned / incremental |
 
 The table reflects what is actually present in GitHub; it does not claim unfinished companion packages are already published.
 
@@ -37,15 +39,15 @@ The table reflects what is actually present in GitHub; it does not claim unfinis
 From the repository root:
 
 ```bash
-bash scripts/list-companion-packages.sh
-bash scripts/validate-companion-packages.sh
+PACKAGE_KIND=dart REQUIRE_MATCH=1 bash scripts/validate-companion-packages.sh
+PACKAGE_KIND=flutter REQUIRE_MATCH=1 bash scripts/validate-companion-packages.sh
 ```
 
-The repository CI runs the same validation for relevant pushes and pull requests.
+GitHub Actions runs the Dart and Flutter toolchains separately so one ecosystem cannot hide failures in the other.
 
 ## Next implementation phase
 
-Parts 011–020 move into Flutter framework architecture, layouts, theming, forms, navigation, state management, networking, persistence, platform integration, and animation. Flutter-specific validation will use a dedicated workflow so pure-Dart package checks remain fast and isolated.
+Parts 013–020 continue with theming/design systems, forms, navigation, state management, networking, persistence, platform integration, and animation.
 
 ## Read the complete series
 
