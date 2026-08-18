@@ -30,7 +30,10 @@ When a part requires external services, use safe `.env.example`/configuration pl
 | [010](part-010/) | Dart Libraries, Packages, Pub and Reusable Architecture | ✅ Reusable package + tests |
 | [011](part-011/) | Flutter Framework Architecture, Widgets and the UI Pipeline | ✅ Flutter package + widget tests |
 | [012](part-012/) | Flutter Layout Mastery, Responsive Design and Slivers | ✅ Flutter package + widget tests |
-| 013–120 | Remaining Flutter and advanced companion implementations | 🚧 Planned / incremental |
+| [013](part-013/) | Flutter Styling, Themes and Professional Design Systems | ✅ Flutter package + theme/widget tests |
+| [014](part-014/) | Flutter Input, Forms, Validation and Submission Workflows | ✅ Flutter package + form/workflow tests |
+| [015](part-015/) | Flutter Navigation, Routing, Deep Links and Multi-Screen Architecture | ✅ Flutter package + route/widget tests |
+| 016–120 | Remaining Flutter and advanced companion implementations | 🚧 Planned / incremental |
 
 The table reflects what is actually present in GitHub; it does not claim unfinished companion packages are already published.
 
@@ -47,7 +50,7 @@ GitHub Actions runs the Dart and Flutter toolchains separately so one ecosystem 
 
 ## Next implementation phase
 
-Parts 013–020 continue with theming/design systems, forms, navigation, state management, networking, persistence, platform integration, and animation.
+Parts 016–020 continue with state management, networking, persistence, platform integration, and animation.
 
 ## Read the complete series
 
