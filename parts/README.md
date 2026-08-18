@@ -16,6 +16,8 @@ When a part requires external services, provide safe `.env.example`/configuratio
 
 ## Read the complete series
 
+[![Get the complete edition on Gumroad](../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
+
 The commercial **Dart & Flutter Full Mastery — Complete 120-Part Master Edition** and available bundles are highlighted on the official Gumroad storefront:
 
 ### 🛒 **https://ramsandesh.gumroad.com**
