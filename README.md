@@ -18,12 +18,15 @@ This repository is for public companion source code, exercises, solutions, maste
 ## Quick links
 
 - 🛒 **Gumroad:** https://ramsandesh.gumroad.com
+- 💗 **Store details:** [GUMROAD.md](GUMROAD.md)
+- 🆘 **Support & reader links:** [SUPPORT.md](SUPPORT.md)
 - 💻 **Repository:** https://github.com/sanskarIN/dart-flutter-master
 - 📧 **Reader/project contact:** sanskarin@outlook.in
 - 🗺️ **Roadmap:** [docs/ROADMAP.md](docs/ROADMAP.md)
 - 📖 **Publishing notes:** [docs/PUBLISHING.md](docs/PUBLISHING.md)
 - 🧪 **Local validation:** [docs/LOCAL_VALIDATION.md](docs/LOCAL_VALIDATION.md)
 - 📝 **Errata:** [ERRATA.md](ERRATA.md)
+- 📚 **Documentation hub:** [docs/README.md](docs/README.md)
 
 ## Series
 
@@ -51,6 +54,8 @@ This repository is for public companion source code, exercises, solutions, maste
 The official storefront for **Dart & Flutter Full Mastery** and other Ram Sandesh digital products is:
 
 ### 🛒 **[ramsandesh.gumroad.com](https://ramsandesh.gumroad.com)**
+
+[![Open the Ram Sandesh Gumroad store](assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
 
 Use Gumroad for the commercial book editions and bundles. Use this GitHub repository for the open companion code, errata, examples, project scaffolds, and release notes.
 
