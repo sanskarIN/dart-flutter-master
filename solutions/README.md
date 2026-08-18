@@ -8,6 +8,8 @@ Solutions must not contain production credentials, private endpoints, copyrighte
 
 ## Complete edition and bundles
 
+[![Gumroad](../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
+
 The official Gumroad storefront for **Dart & Flutter Full Mastery** and other Ram Sandesh digital products is:
 
 ### 🛒 **https://ramsandesh.gumroad.com**
