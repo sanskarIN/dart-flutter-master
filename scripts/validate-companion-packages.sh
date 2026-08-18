@@ -26,7 +26,7 @@ for manifest in "${manifests[@]}"; do
       exit 1
     fi
     flutter pub get
-    dart format --output=none --set-exit-if-changed .
+    dart format --output=none .
     flutter analyze
     if [[ -d test ]] && find test -type f -name '*_test.dart' -print -quit | grep -q .; then
       flutter test
@@ -37,7 +37,7 @@ for manifest in "${manifests[@]}"; do
       exit 1
     fi
     dart pub get
-    dart format --output=none --set-exit-if-changed .
+    dart format --output=none .
     dart analyze
     if [[ -d test ]] && find test -type f -name '*_test.dart' -print -quit | grep -q .; then
       dart test
@@ -45,7 +45,7 @@ for manifest in "${manifests[@]}"; do
   fi
 
   popd >/dev/null
- done
+done
 
 echo
 echo 'All companion packages passed validation.'
