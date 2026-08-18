@@ -16,7 +16,7 @@ class MethodChannelNativeCapability implements NativeCapability {
     final result = await _channel.invokeMethod<String>('platformName');
     final normalized = result?.trim();
     if (normalized == null || normalized.isEmpty) {
-      throw const PlatformException(
+      throw PlatformException(
         code: 'invalid_response',
         message: 'Native platform name was empty.',
       );
