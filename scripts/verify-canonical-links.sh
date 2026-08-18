@@ -11,11 +11,14 @@ reader_files=(
   BOOK_LICENSE.md
   CHANGELOG.md
   ERRATA.md
+  docs/README.md
   docs/BOOK_METADATA.md
   docs/PUBLISHING.md
   docs/ROADMAP.md
   docs/RELEASE_CHECKLIST.md
   docs/REPOSITORY_POLICY.md
+  docs/STORE_LINK_POLICY.md
+  assets/README.md
   parts/README.md
   examples/README.md
   exercises/README.md
@@ -36,7 +39,17 @@ for file in "${reader_files[@]}"; do
   fi
 done
 
-repo_files=(README.md GUMROAD.md SUPPORT.md docs/BOOK_METADATA.md docs/PUBLISHING.md docs/REPOSITORY_POLICY.md)
+repo_files=(
+  README.md
+  GUMROAD.md
+  SUPPORT.md
+  docs/README.md
+  docs/BOOK_METADATA.md
+  docs/PUBLISHING.md
+  docs/REPOSITORY_POLICY.md
+  docs/STORE_LINK_POLICY.md
+)
+
 for file in "${repo_files[@]}"; do
   if ! grep -Fq "$REPOSITORY" "$file"; then
     echo "Missing canonical repository URL in: $file" >&2
