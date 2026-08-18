@@ -1,8 +1,8 @@
-# Part 002 — Types, Null Safety, and Data Modeling
+# Part 002 — Dart Syntax, Variables, Constants and Core Types
 
 [![Get the complete edition on Gumroad](../../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
 
-This companion package practices Dart's type system, nullable values, named parameters, and small immutable data models.
+This companion package matches Part 002 of the master manuscript and practices Dart's type system, variables, immutable values, nullable data, named parameters, normalization, and safe numeric aggregation.
 
 ## Run
 
@@ -14,9 +14,10 @@ dart test
 
 ## Focus
 
-- Non-nullable and nullable values
+- Core Dart value types
+- Variables and immutable model state
+- Nullable and non-nullable values
 - Named parameters
-- Immutable value objects
 - Input normalization and validation
 - Safe numeric aggregation
 
