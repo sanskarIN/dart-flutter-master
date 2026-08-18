@@ -14,6 +14,8 @@ reader_files=(
   docs/README.md
   docs/BOOK_METADATA.md
   docs/PUBLISHING.md
+  docs/GUMROAD_PRODUCT_GUIDE.md
+  docs/GUMROAD_RELEASE_CHECKLIST.md
   docs/ROADMAP.md
   docs/RELEASE_CHECKLIST.md
   docs/REPOSITORY_POLICY.md
@@ -46,6 +48,8 @@ repo_files=(
   docs/README.md
   docs/BOOK_METADATA.md
   docs/PUBLISHING.md
+  docs/GUMROAD_PRODUCT_GUIDE.md
+  docs/GUMROAD_RELEASE_CHECKLIST.md
   docs/REPOSITORY_POLICY.md
   docs/STORE_LINK_POLICY.md
 )
