@@ -15,6 +15,8 @@ Keep solution-specific implementation out of starter files. Reference the matchi
 
 ## Get the complete book
 
+[![Gumroad](../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
+
 For the complete learning path, commercial editions, and available bundles:
 
 ### 🛒 **https://ramsandesh.gumroad.com**
