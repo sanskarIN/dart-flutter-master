@@ -12,3 +12,11 @@ Every example should state:
 - tests or validation commands when practical
 
 Prefer small examples over giant demo applications. Larger integrated work belongs in `master-projects/`.
+
+## Complete learning series
+
+For the full commercial **Dart & Flutter Full Mastery** editions and bundles:
+
+### 🛒 **https://ramsandesh.gumroad.com**
+
+Public example code remains available through this GitHub repository.
