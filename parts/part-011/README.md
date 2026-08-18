@@ -4,13 +4,15 @@
 
 This companion package matches Part 011 of the master manuscript and introduces the Flutter widget tree, composition, immutable widget configuration, rebuild-friendly UI structure, and the relationship between app, screen, and reusable component layers.
 
-## Run
+## Validate
 
 ```bash
 flutter pub get
-flutter run -t lib/main.dart
 flutter test
+flutter analyze
 ```
+
+`lib/main.dart` is provided as the app entry point. Platform runner folders are intentionally not committed to this focused companion package; generate or use an appropriate Flutter app shell when you want to launch it on a device.
 
 ## Focus
 
