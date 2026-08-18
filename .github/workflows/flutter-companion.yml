@@ -1,0 +1,53 @@
+name: Flutter Companion CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'parts/part-01[1-9]/**'
+      - 'parts/part-0[2-9][0-9]/**'
+      - 'parts/part-1[0-2][0-9]/**'
+      - 'examples/**'
+      - 'master-projects/**'
+      - 'scripts/validate-companion-packages.sh'
+      - 'scripts/list-companion-packages.sh'
+      - '.github/workflows/flutter-companion.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'parts/part-01[1-9]/**'
+      - 'parts/part-0[2-9][0-9]/**'
+      - 'parts/part-1[0-2][0-9]/**'
+      - 'examples/**'
+      - 'master-projects/**'
+      - 'scripts/validate-companion-packages.sh'
+      - 'scripts/list-companion-packages.sh'
+      - '.github/workflows/flutter-companion.yml'
+
+permissions:
+  contents: read
+
+env:
+  PACKAGE_KIND: flutter
+  REQUIRE_MATCH: '0'
+
+jobs:
+  validate-flutter-companions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Show Flutter toolchain
+        run: |
+          flutter --version
+          dart --version
+
+      - name: Validate Flutter companion packages
+        run: bash scripts/validate-companion-packages.sh
