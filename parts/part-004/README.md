@@ -1,8 +1,8 @@
-# Part 004 — Functions, Callbacks, and Closures
+# Part 004 — Dart Control Flow, Switches, Patterns and Loops
 
 [![Get the complete edition on Gumroad](../../assets/gumroad-badge.svg)](https://ramsandesh.gumroad.com)
 
-This package demonstrates typed functions, higher-order functions, closures, and functional composition.
+This companion package matches Part 004 of the master manuscript and focuses on branching, loops, rule ordering, validation, and deterministic control-flow logic.
 
 ## Run
 
@@ -11,6 +11,14 @@ dart pub get
 dart run bin/main.dart
 dart test
 ```
+
+## Focus
+
+- `if`/`else` decisions
+- range validation
+- loops and collection traversal
+- rule ordering
+- FizzBuzz-style branching
 
 Complete edition: **https://ramsandesh.gumroad.com**
 
