@@ -11,3 +11,13 @@ The following are **not** granted under the MIT License and remain **© 2026 Ram
 - Compiled paid product bundles
 
 Readers may use the educational code examples in their own original learning and software projects. Republishing or reselling the book or a substantially identical compilation requires permission.
+
+## Official purchase source
+
+Commercial editions and official digital bundles are available from the Ram Sandesh Gumroad storefront:
+
+### 🛒 **https://ramsandesh.gumroad.com**
+
+[Open the official Gumroad store →](https://ramsandesh.gumroad.com)
+
+The public GitHub repository remains the canonical home for eligible open companion code and project documentation: **https://github.com/sanskarIN/dart-flutter-master**.
