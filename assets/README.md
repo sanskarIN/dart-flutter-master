@@ -4,17 +4,18 @@ This directory contains GitHub-facing artwork used by the **Dart & Flutter Full 
 
 ## Gumroad assets
 
-- `gumroad-github-banner.webp` — large promotional README/store banner.
+- `gumroad-hero.svg` — primary auditable vector hero shown at the top of the main README.
 - `gumroad-badge.svg` — compact reusable Gumroad/store badge.
+- `gumroad-github-banner.webp` — generated promotional GitHub/store artwork retained as an optional visual asset.
 
-Both assets point readers toward the official Ram Sandesh Gumroad storefront:
+All Gumroad assets point readers toward the official Ram Sandesh Gumroad storefront:
 
 ### 🛒 **https://ramsandesh.gumroad.com**
 
 Recommended Markdown usage:
 
 ```md
-[![Get Dart & Flutter Full Mastery on Gumroad](assets/gumroad-github-banner.webp)](https://ramsandesh.gumroad.com)
+[![Get Dart & Flutter Full Mastery on Gumroad](assets/gumroad-hero.svg)](https://ramsandesh.gumroad.com)
 ```
 
 From a subdirectory README:
