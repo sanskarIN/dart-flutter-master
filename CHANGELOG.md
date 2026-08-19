@@ -14,6 +14,19 @@ All notable companion-repository changes should be recorded here.
 - Add dedicated Dart and Flutter GitHub Actions workflows.
 - Add the Flutter companion package standard in `docs/FLUTTER_COMPANION_GUIDE.md`.
 
+### Master projects
+
+- Add **TaskFlow** for task/repository/controller architecture.
+- Add **PocketLedger** for integer-money modeling, reporting, and local persistence.
+- Add **NoteVault** for offline notes, tags, full-text search, and pin ordering.
+- Add **API Explorer** for safe REST modeling, injected transports, response inspection, and request history.
+- Add **HabitPulse** for normalized date keys, daily check-ins, and streak calculations.
+- Add **QuizForge** for validated questions, deterministic scoring, progress, results, and restart flows.
+- Add `master-projects/PROJECT_STANDARD.md` and `PROJECT_TEMPLATE.md` for future project consistency.
+- Add `docs/MASTER_PROJECTS.md` with an architecture comparison and contribution guidance.
+- Add master-project structure verification to Flutter CI.
+- Extend canonical GitHub/Gumroad link enforcement to every master-project README.
+
 ### Repository and publication infrastructure
 
 - Establish official repository structure and governance.
@@ -21,7 +34,7 @@ All notable companion-repository changes should be recorded here.
 - Add publishing, release, validation, errata, and contribution documentation.
 - Add the official Gumroad storefront throughout reader-facing repository documentation: `https://ramsandesh.gumroad.com`.
 - Add clickable Gumroad README branding and GitHub funding link.
-- Enforce Gumroad/repository links across implemented part READMEs and reject X/Twitter profile URLs from canonical metadata.
+- Enforce Gumroad/repository links across implemented part and master-project READMEs and reject X/Twitter profile URLs from canonical metadata.
 - Prepare repository for the first public companion-code release.
 
 ## v1.0.0 — planned
