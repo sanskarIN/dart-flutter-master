@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+export CI=true
+
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root"
 
@@ -55,7 +57,7 @@ for manifest in "${manifests[@]}"; do
     fi
     flutter pub get
     dart format --output=none .
-    flutter analyze
+    flutter analyze --fatal-infos
     if [[ -d test ]] && find test -type f -name '*_test.dart' -print -quit | grep -q .; then
       flutter test
     fi
@@ -66,7 +68,7 @@ for manifest in "${manifests[@]}"; do
     fi
     dart pub get
     dart format --output=none .
-    dart analyze
+    dart analyze --fatal-infos
     if [[ -d test ]] && find test -type f -name '*_test.dart' -print -quit | grep -q .; then
       dart test
     fi
