@@ -27,6 +27,7 @@ bash scripts/verify-no-secrets.sh
 printf '\n==> Placeholder markers\n'
 if grep -RniE '\b(TODO|FIXME|HACK|XXX)\b' parts master-projects scripts \
   --include='*.dart' --include='*.py' --include='*.sh' \
+  --exclude='verify-repository.sh' \
   --exclude-dir=.dart_tool --exclude-dir=build; then
   echo 'Unresolved placeholder marker found in executable/project source.' >&2
   exit 1
