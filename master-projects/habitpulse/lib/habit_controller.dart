@@ -28,7 +28,10 @@ class HabitController extends ChangeNotifier {
   bool get isLoading => _isLoading;
   DateTime get today => _clock();
 
-  int get completedToday => _habits.where((habit) => habit.isCompleteOn(today)).length;
+  int get completedToday {
+    final day = today;
+    return _habits.where((habit) => habit.isCompleteOn(day)).length;
+  }
 
   Future<void> load() async {
     _isLoading = true;
