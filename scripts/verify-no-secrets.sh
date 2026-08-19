@@ -14,7 +14,7 @@ patterns=(
 )
 
 for pattern in "${patterns[@]}"; do
-  if grep -RniE "$pattern" . \
+  if grep -IRniE "$pattern" . \
     --exclude-dir=.git \
     --exclude-dir=.dart_tool \
     --exclude-dir=build \
