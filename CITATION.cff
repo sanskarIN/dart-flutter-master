@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this companion repository in educational work, please cite it using this metadata."
+title: "Dart & Flutter Full Mastery - Companion Repository"
+type: software
+authors:
+  - name: "Ram Sandesh"
+repository-code: "https://github.com/sanskarIN/dart-flutter-master"
+url: "https://github.com/sanskarIN/dart-flutter-master"
+license: MIT
+keywords:
+  - Dart
+  - Flutter
+  - mobile-development
+  - cross-platform
+  - education
+  - examples
+  - testing
