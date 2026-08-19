@@ -70,7 +70,7 @@ class _TaskFlowHomeState extends State<TaskFlowHome> {
               ),
               const SizedBox(height: 8),
               DropdownButtonFormField<TaskPriority>(
-                value: _priority,
+                initialValue: _priority,
                 decoration: const InputDecoration(labelText: 'Priority'),
                 items: TaskPriority.values
                     .map((value) => DropdownMenuItem(
