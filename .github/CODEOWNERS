@@ -1,0 +1,14 @@
+# Default owner
+* @sanskarIN
+
+# High-impact repository automation and policy
+/.github/ @sanskarIN
+/scripts/ @sanskarIN
+/SECURITY.md @sanskarIN
+/BOOK_LICENSE.md @sanskarIN
+/LICENSE @sanskarIN
+
+# Publication and learning structure
+/docs/ @sanskarIN
+/parts/ @sanskarIN
+/master-projects/ @sanskarIN

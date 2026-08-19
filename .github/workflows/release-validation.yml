@@ -1,0 +1,49 @@
+name: Release Validation
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+concurrency:
+  group: release-validation-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  validate-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Flutter stable
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Show toolchain
+        run: |
+          flutter --version
+          dart --version
+          python3 --version
+
+      - name: Verify repository quality
+        run: bash scripts/verify-repository.sh
+
+      - name: Validate Dart companion packages
+        env:
+          PACKAGE_KIND: dart
+          REQUIRE_MATCH: '1'
+        run: bash scripts/validate-companion-packages.sh
+
+      - name: Validate Flutter companion packages and master projects
+        env:
+          PACKAGE_KIND: flutter
+          REQUIRE_MATCH: '1'
+        run: bash scripts/validate-companion-packages.sh

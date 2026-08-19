@@ -15,17 +15,22 @@ Official companion repository for **Dart & Flutter Full Mastery — Complete 120
 [![Master Projects](https://img.shields.io/badge/Master%20Projects-6%20Implemented-7c4dff?style=for-the-badge)](master-projects/README.md)
 [![Code License](https://img.shields.io/badge/Companion%20Code-MIT-2ea44f?style=for-the-badge)](LICENSE)
 
+[![Repository Quality](https://github.com/sanskarIN/dart-flutter-master/actions/workflows/repository-quality.yml/badge.svg)](https://github.com/sanskarIN/dart-flutter-master/actions/workflows/repository-quality.yml)
+[![Dart Companion CI](https://github.com/sanskarIN/dart-flutter-master/actions/workflows/dart-companion.yml/badge.svg)](https://github.com/sanskarIN/dart-flutter-master/actions/workflows/dart-companion.yml)
+[![Flutter Companion CI](https://github.com/sanskarIN/dart-flutter-master/actions/workflows/flutter-companion.yml/badge.svg)](https://github.com/sanskarIN/dart-flutter-master/actions/workflows/flutter-companion.yml)
+[![Canonical Links](https://github.com/sanskarIN/dart-flutter-master/actions/workflows/canonical-links.yml/badge.svg)](https://github.com/sanskarIN/dart-flutter-master/actions/workflows/canonical-links.yml)
+
 This repository is for public companion source code, exercises, solutions, master projects, interview preparation, errata, and release notes. The commercial book manuscript, covers, and publication artwork are not licensed under the repository's MIT code license.
 
 ## Current companion-code milestone
 
 **Parts 001–020 are implemented and linked from the [Parts status page](parts/README.md).** The current public milestone spans Dart foundations through Flutter widgets, responsive layouts, themes, forms, navigation, state management, REST architecture, offline-first data, platform capability boundaries, and motion/custom painting.
 
-Implemented packages include unit or widget tests appropriate to their topic. Pure-Dart and Flutter packages are validated by separate GitHub Actions workflows.
+Implemented packages include unit or widget tests appropriate to their topic. Pure-Dart and Flutter packages are validated by separate GitHub Actions workflows, while repository-wide documentation/configuration checks run independently.
 
 ## Master projects
 
-Six production-minded Flutter projects are now implemented under [`master-projects/`](master-projects/):
+Six production-minded Flutter projects are implemented under [`master-projects/`](master-projects/):
 
 - ✅ **[TaskFlow](master-projects/taskflow/)** — task management, priorities, filtering, repository/controller boundaries
 - ✅ **[PocketLedger](master-projects/pocketledger/)** — integer-money modeling, reporting, local persistence
@@ -45,13 +50,18 @@ See the [master-project catalog](master-projects/README.md) and [architecture co
 - 🧩 **Master-project catalog:** [master-projects/README.md](master-projects/README.md)
 - 💻 **Repository:** https://github.com/sanskarIN/dart-flutter-master
 - 📧 **Reader/project contact:** sanskarin@outlook.in
+- 📚 **Complete documentation hub:** [docs/README.md](docs/README.md)
+- 🧱 **Repository architecture:** [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- 🧪 **Testing strategy:** [docs/TESTING.md](docs/TESTING.md)
+- 🛠️ **Troubleshooting:** [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
+- ♿ **Accessibility:** [docs/ACCESSIBILITY.md](docs/ACCESSIBILITY.md)
+- 🔐 **Privacy/data handling:** [docs/PRIVACY.md](docs/PRIVACY.md)
+- 🧭 **Compatibility:** [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md)
+- 📦 **Dependency policy:** [docs/DEPENDENCY_POLICY.md](docs/DEPENDENCY_POLICY.md)
+- 🏷️ **Versioning:** [docs/VERSIONING.md](docs/VERSIONING.md)
+- 🚀 **Release process:** [docs/RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md)
 - 🗺️ **Roadmap:** [docs/ROADMAP.md](docs/ROADMAP.md)
-- 📐 **Flutter companion standard:** [docs/FLUTTER_COMPANION_GUIDE.md](docs/FLUTTER_COMPANION_GUIDE.md)
-- 🧱 **Master-project standard:** [master-projects/PROJECT_STANDARD.md](master-projects/PROJECT_STANDARD.md)
-- 📖 **Publishing notes:** [docs/PUBLISHING.md](docs/PUBLISHING.md)
-- 🧪 **Local validation:** [docs/LOCAL_VALIDATION.md](docs/LOCAL_VALIDATION.md)
 - 📝 **Errata:** [ERRATA.md](ERRATA.md)
-- 📚 **Documentation hub:** [docs/README.md](docs/README.md)
 
 ## Series
 
@@ -70,9 +80,22 @@ See the [master-project catalog](master-projects/README.md) and [architecture co
 - `solutions/` — educational solution references
 - `master-projects/` — production-minded Flutter projects with tests
 - `interview-preparation/` — interview practice material
-- `docs/` — publishing, release, roadmap, project, and repository documentation
-- `assets/` — GitHub/readme artwork and store banners
+- `docs/` — architecture, compatibility, testing, publishing, release, roadmap, and repository documentation
+- `scripts/` — deterministic repository/package verification tools
+- `assets/` — GitHub/README artwork and store banners
 - `release-assets/` — instructions for release artifacts; paid book files are not committed here
+
+## Validation
+
+From the repository root:
+
+```bash
+bash scripts/verify-repository.sh
+PACKAGE_KIND=dart REQUIRE_MATCH=1 bash scripts/validate-companion-packages.sh
+PACKAGE_KIND=flutter REQUIRE_MATCH=1 bash scripts/validate-companion-packages.sh
+```
+
+See [docs/TESTING.md](docs/TESTING.md), [docs/LOCAL_VALIDATION.md](docs/LOCAL_VALIDATION.md), and [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md).
 
 ## Get the book and bundles
 
@@ -89,6 +112,15 @@ Use Gumroad for the commercial book editions and bundles. Use this GitHub reposi
 Public companion **source code** is released under the MIT License unless a file states otherwise. Book prose, compiled publication files, covers, diagrams, and publication artwork remain © 2026 Ram Sandesh, All Rights Reserved.
 
 See [BOOK_LICENSE.md](BOOK_LICENSE.md) for the book/publication rights boundary.
+
+## Contributing, support, and security
+
+- Contributions: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Support: [SUPPORT.md](SUPPORT.md)
+- Security reporting: [SECURITY.md](SECURITY.md)
+- Code of Conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Maintainer guide: [docs/MAINTAINERS.md](docs/MAINTAINERS.md)
+- FAQ: [docs/FAQ.md](docs/FAQ.md)
 
 ## Contact
 

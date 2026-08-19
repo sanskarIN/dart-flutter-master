@@ -6,12 +6,17 @@ on:
   pull_request:
     branches: [main]
 
+concurrency:
+  group: canonical-links-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
 jobs:
   verify-links:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
