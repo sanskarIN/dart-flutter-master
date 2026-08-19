@@ -7,12 +7,14 @@
 - 🛒 **Official Gumroad:** https://ramsandesh.gumroad.com
 - 💻 **Official repository:** https://github.com/sanskarIN/dart-flutter-master
 - 📧 **Reader/project contact:** sanskarin@outlook.in
+- 🧩 **Master projects:** [MASTER_PROJECTS.md](MASTER_PROJECTS.md)
 
 ## Documentation
 
 - [Book metadata](BOOK_METADATA.md)
 - [Repository roadmap](ROADMAP.md)
 - [Flutter companion package standard](FLUTTER_COMPANION_GUIDE.md)
+- [Master-project architecture guide](MASTER_PROJECTS.md)
 - [Publishing guide](PUBLISHING.md)
 - [Gumroad product guide](GUMROAD_PRODUCT_GUIDE.md)
 - [Gumroad release checklist](GUMROAD_RELEASE_CHECKLIST.md)
@@ -28,4 +30,4 @@ For the complete commercial editions and available bundles, use the official Gum
 
 ### **https://ramsandesh.gumroad.com**
 
-For public code, examples, errata, and contribution history, remain in the GitHub repository.
+For public code, master projects, examples, errata, and contribution history, remain in the GitHub repository.
