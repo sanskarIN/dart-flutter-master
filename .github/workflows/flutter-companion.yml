@@ -11,6 +11,7 @@ on:
       - 'master-projects/**'
       - 'scripts/validate-companion-packages.sh'
       - 'scripts/list-companion-packages.sh'
+      - 'scripts/verify-master-projects.sh'
       - '.github/workflows/flutter-companion.yml'
   pull_request:
     branches: [main]
@@ -22,6 +23,7 @@ on:
       - 'master-projects/**'
       - 'scripts/validate-companion-packages.sh'
       - 'scripts/list-companion-packages.sh'
+      - 'scripts/verify-master-projects.sh'
       - '.github/workflows/flutter-companion.yml'
 
 permissions:
@@ -48,6 +50,9 @@ jobs:
         run: |
           flutter --version
           dart --version
+
+      - name: Verify master-project structure
+        run: bash scripts/verify-master-projects.sh
 
       - name: Validate Flutter companion packages
         run: bash scripts/validate-companion-packages.sh
