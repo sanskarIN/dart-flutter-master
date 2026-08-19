@@ -20,6 +20,21 @@ Implemented manuscript-aligned companion packages for:
 
 See `parts/README.md` for the exact implementation matrix.
 
+## Master-project expansion ✅ initial collection
+
+Six standalone Flutter projects are now available under `master-projects/`:
+
+- TaskFlow
+- PocketLedger
+- NoteVault
+- API Explorer
+- HabitPulse
+- QuizForge
+
+Each project has its own package manifest, README, app entry point, architecture layers, and tests. Flutter CI discovers these packages automatically, and a separate structure verifier prevents incomplete project folders from being treated as finished.
+
+Future master projects may continue alongside the manuscript implementation phases when they teach a distinct architecture pattern and meet `master-projects/PROJECT_STANDARD.md`.
+
 ## Phase 3 — Parts 021–060 🚧 next
 
 Continue in exact master-manuscript order with advanced Flutter UI, testing, architecture, data, performance, and production companion implementations.
@@ -30,7 +45,7 @@ Add advanced application, framework, platform, integration, and enterprise mater
 
 ## Phase 5 — Parts 101–120
 
-Add platform integrations, master projects, open-source/career material, interview preparation, and final assessment assets.
+Add platform integrations, additional master projects, open-source/career material, interview preparation, and final assessment assets.
 
 ## Phase 6 — v1.0.0
 
