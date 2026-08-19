@@ -1,0 +1,19 @@
+name: dfm_api_explorer
+publish_to: none
+description: Safe REST architecture and API inspection master project for Dart & Flutter Full Mastery.
+version: 0.1.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
