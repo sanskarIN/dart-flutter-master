@@ -27,6 +27,18 @@ All notable companion-repository changes should be recorded here.
 - Add master-project structure verification to Flutter CI.
 - Extend canonical GitHub/Gumroad link enforcement to every master-project README.
 
+### Final hardening and documentation
+
+- Add `.editorconfig`, CODEOWNERS, Dependabot configuration, and `CITATION.cff`.
+- Treat Dart/Flutter analyzer information findings as CI failures to surface deprecations and maintenance issues early.
+- Add deterministic repository-quality checks for package manifests/tests, local Markdown links, shell syntax, canonical links, master-project structure, placeholder markers, and common committed-secret/config artifacts.
+- Add the Repository Quality workflow and a manual/tag-triggered full Release Validation workflow.
+- Add CI concurrency cancellation and explicit timeouts to prevent obsolete runs from consuming the queue.
+- Add architecture, compatibility, testing, troubleshooting, accessibility, privacy/data-handling, dependency, versioning, release-process, maintainer, and FAQ documentation.
+- Expand the README and documentation hub with validation commands, CI badges, support/security links, and the complete engineering/maintenance documentation set.
+- Strengthen contribution, bug-report, feature-request, and pull-request templates with reproducibility, security, licensing, accessibility, and test requirements.
+- Extend canonical-link enforcement to the complete reader-facing documentation set while continuing to reject X/Twitter profile URLs from canonical metadata.
+
 ### Repository and publication infrastructure
 
 - Establish official repository structure and governance.
@@ -48,3 +60,5 @@ All notable companion-repository changes should be recorded here.
 ## Official store
 
 🛒 **https://ramsandesh.gumroad.com**
+
+Official repository: **https://github.com/sanskarIN/dart-flutter-master**
