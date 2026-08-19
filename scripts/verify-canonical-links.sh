@@ -14,6 +14,7 @@ reader_files=(
   docs/README.md
   docs/BOOK_METADATA.md
   docs/FLUTTER_COMPANION_GUIDE.md
+  docs/MASTER_PROJECTS.md
   docs/PUBLISHING.md
   docs/GUMROAD_PRODUCT_GUIDE.md
   docs/GUMROAD_RELEASE_CHECKLIST.md
@@ -27,6 +28,8 @@ reader_files=(
   exercises/README.md
   solutions/README.md
   master-projects/README.md
+  master-projects/PROJECT_STANDARD.md
+  master-projects/PROJECT_TEMPLATE.md
   interview-preparation/README.md
   release-assets/README.md
 )
@@ -49,11 +52,15 @@ repo_files=(
   docs/README.md
   docs/BOOK_METADATA.md
   docs/FLUTTER_COMPANION_GUIDE.md
+  docs/MASTER_PROJECTS.md
   docs/PUBLISHING.md
   docs/GUMROAD_PRODUCT_GUIDE.md
   docs/GUMROAD_RELEASE_CHECKLIST.md
   docs/REPOSITORY_POLICY.md
   docs/STORE_LINK_POLICY.md
+  master-projects/README.md
+  master-projects/PROJECT_STANDARD.md
+  master-projects/PROJECT_TEMPLATE.md
 )
 
 for file in "${repo_files[@]}"; do
@@ -65,6 +72,8 @@ done
 
 shopt -s nullglob
 part_readmes=(parts/part-*/README.md)
+project_readmes=(master-projects/*/README.md)
+
 for file in "${part_readmes[@]}"; do
   if ! grep -Fq "$GUMROAD" "$file"; then
     echo "Missing Gumroad link in implemented part: $file" >&2
@@ -72,6 +81,17 @@ for file in "${part_readmes[@]}"; do
   fi
   if ! grep -Fq "$REPOSITORY" "$file"; then
     echo "Missing canonical repository URL in implemented part: $file" >&2
+    exit 1
+  fi
+done
+
+for file in "${project_readmes[@]}"; do
+  if ! grep -Fq "$GUMROAD" "$file"; then
+    echo "Missing Gumroad link in master project: $file" >&2
+    exit 1
+  fi
+  if ! grep -Fq "$REPOSITORY" "$file"; then
+    echo "Missing canonical repository URL in master project: $file" >&2
     exit 1
   fi
 done
@@ -84,5 +104,6 @@ fi
 
 echo 'Canonical link verification passed.'
 echo "Checked ${#part_readmes[@]} implemented part README file(s)."
+echo "Checked ${#project_readmes[@]} master-project README file(s)."
 echo "Gumroad: $GUMROAD"
 echo "Repository: $REPOSITORY"
