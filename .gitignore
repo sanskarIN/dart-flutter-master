@@ -6,6 +6,7 @@ build/
 coverage/
 .flutter-plugins
 .flutter-plugins-dependencies
+pubspec_overrides.yaml
 
 # IDE
 .idea/
@@ -26,6 +27,10 @@ Thumbs.db
 *.pfx
 *.pem
 *.key
+android/key.properties
+android/local.properties
+google-services.json
+GoogleService-Info.plist
 
 # Generated publication files are distributed separately
 *.pdf
